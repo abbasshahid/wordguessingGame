@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Word Guessing Game</h1>
+        <p>Guess the word within <span id="attempts">7</span> attempts.</p>
+        <div class="word-display">
+            <!-- Display the word with blanks -->
+            <span id="word-display"></span>
+        </div>
+        <div class="input-container">
+            <input type="text" id="guess-input" placeholder="Enter a letter">
+            <button id="guess-button">Guess</button>
+        </div>
+        <div class="message">
+            <p id="message"></p>
+        </div>
+        <div id="image-container">
+            <!-- The first image will be displayed here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
